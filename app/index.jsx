@@ -83,6 +83,7 @@ export default function Index() {
               key={p.id}
               onPress={() => toogleTimerType(p)}
               display={p.display}
+              active={timerType.id === p.id}
             />
           ))}
         </View>
